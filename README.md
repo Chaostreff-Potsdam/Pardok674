@@ -1,6 +1,15 @@
 # Pardok674
 Parsing Expenditure Data for Brandenburg from FOIA PDF
 
+# Requirements
+* Benötigt python >=3 
+* Benötigt die python library xslt
+
+# Benutzung
+Die Daten werden zunächst mit dem tool `pdftohtml -xml` aus der pdf in ein xml übertragen
+Mit einem Python >=3 dann einfach ausführen und die Daten weiterverwenden
+
+
 # Disclaimer
 Das Dokument basiert auf einer Anfrage eines Parlamentariers der AfD Fraktion Brandenburg. 
 
