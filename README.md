@@ -1,12 +1,12 @@
 # Pardok674
-Parsing Expenditure Data for Brandenburg from FOIA PDF
+Maschinenlesbare Einzelausgaben für Projekt- und Privatförderungen im Land Brandenburg basierend auf einem Dokument der ParDokBB.
 
 # Requirements
 * Benötigt python >=3 
 * Benötigt die python library xslt
 
 # Benutzung
-Die Daten werden zunächst mit dem tool `pdftohtml -xml` aus der pdf in ein xml übertragen
+Die Daten werden zunächst mit dem poppler-tool `pdftohtml -xml` aus der pdf in ein xml übertragen
 Mit einem Python >=3 dann einfach ausführen und die Daten weiterverwenden
 
 
